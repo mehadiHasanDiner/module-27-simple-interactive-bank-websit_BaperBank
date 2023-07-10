@@ -14,7 +14,7 @@ document.getElementById("btn-submit").addEventListener("click", function () {
   const password = passwordField.value;
 
   //step 4: verify the email and password and check weather valid user or not
-  if (email === "mehaid@gmail.com" && password === "secret") {
+  if (email === "mehadi@gmail.com" && password === "123123") {
     window.location.href = "bank.html";
   } else {
     alert("Tui password vule gesos!! toke ami tejjo sontan gosona korlam");
